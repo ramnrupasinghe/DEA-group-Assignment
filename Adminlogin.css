@@ -39,3 +39,60 @@
   font-size: 15px;
   font-family: cursive;
 }
+
+.Loginbox input
+{
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.Loginbox input[type="text"],.Loginbox input[type="password"]
+{
+    margin-left: 25px;
+    margin-top: 25px;
+    background: transparent;
+    height: 20px;
+    width: 100px;
+}
+
+.Loginbox input[type="submit"]
+{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    font-size: 15px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:monospace;
+}
+
+.Loginbox input[type="submit"]:hover
+{
+    background: blue;
+}
+
+.Loginbox input[type="reset"]
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 70px;
+    color: #fff;
+    font-size: 15px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:monospace;
+}
+
+.Loginbox input[type="reset"]:hover
+{
+    background: blue;
+}
