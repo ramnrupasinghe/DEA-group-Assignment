@@ -14,6 +14,7 @@ background-position: center;
 
 header{
    display: flex;
+   top: 10px;
    justify-content: space-between;
    align-items: center;
    position: fixed;
@@ -37,34 +38,34 @@ header .logo{
     text-transform: uppercase;
     font-size: 15px;
 }
-header .search-box{
+header .searchbox{
     flex: 1;
     position: relative;
 }
-.search-box input{
+.searchbox input{
     width: 100%;
     height: 40px;
     border: none;
     outline: none;
-    background:rgba(0,0,0,5);
+    background:rgb(173, 216, 230);
     border-radius:30px;
-    color: #fff;
+    color: #000;
     font-size: 16px;
     text-align: center;
     padding-left: 5px;
     padding-right: 40px;
 }
-.search-box button{
+.searchbox button{
     cursor: pointer;
     width: 40px;
     height: 40px;
     border-radius: 30px;
     border: none;
-    position: center;
+    position: absolute;
     top: 0;
     right: 0;
     transform: scale(0.9);
-    background: #483D8B;
+    background: #00BFFF;
 }
 header ul{
     flex: 2;
@@ -92,7 +93,7 @@ header .menu{
     display: none;
 }
 @media(max-width:1000px){
-    .search-box button{
+    .searchbox button{
         position: absolute;
     }
     header ul{
@@ -124,6 +125,9 @@ header .menu{
         width: 100%;
     }
 }
+#chk1{
+    display: none;
+}
 ul li.active a{
     background-color: #fff;
     color: #000;
@@ -149,7 +153,7 @@ ul li.active a{
 }
 .button{
     position: absolute;
-    top: 490px;
+    top: 450px;
     left: 36.5%;
     transform: translate(-50%,-50%);
 }
@@ -240,10 +244,3 @@ footer .container{
     color: #fff;
 
 }
-
-
-
-
-
-
-
