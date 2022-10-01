@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     <div>Flight Search</div>
+         
+       
+         <form method="post" action="flight search.jsp">
+            <center>
+                 <table border="1" width="30%" cellpadding="3">
+                
+                    <thead>
+                        <tr>
+                             <th colspan="2"><h2>Flight Search </h2></th>
+                            <th> </th>
+                            <th><input type="submit" value="Go Back" /></th>
+                        </tr>
+                    </thead>
+                    <table border="3">
+                        <table border="1">
+                            <thead>Add Your Flight ID here&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                               <input type="text" name="Flight ID" value="" /> 
+                               
+                               <input type="submit" value="Flight ID" />
+                            </thead>
+                            
+
+                       
+                            <tr>
+                                <td>From&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="text" name="From" value="" />
+                                <td>To&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="text" name="To" value="" />
+                            </tr>
+                            <tr>
+                                <td>Departures&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="Departures" value="" />
+                                <td>Returns&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="Returns" value="" />
+                            </tr>
+                            <tr>
+                                <td>Number of Passengers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="No.of passengers" value="" />
+                                <td>Travel Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="Travel Class" value="" />
+                            </tr>
+                           
+                        </tbody>
+                         
+                    </table>
+                           <input type="submit" value="Search" />
+    
+       
+    </body>
+</html>
