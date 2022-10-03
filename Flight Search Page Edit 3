@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div><h1>Flight Search</h1></div>
+        
+        
+        
+                            <tr>
+                                <td>From&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="text" name="From" value="" />
+                                <td>To&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="text" name="To" value="" />
+                            </tr><br><br>
+                            <tr>
+                                <td>Departures&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="Departures" value="" />
+                                <td>Returns&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="Returns" value="" />
+                            </tr><br><br>
+                            <tr>
+                                <td>Number of Passengers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="No.of passengers" value="" />
+                                <td>Travel Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="Travel Class" value="" />
+                            </tr>
