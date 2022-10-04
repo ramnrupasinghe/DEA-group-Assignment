@@ -5,30 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
      <div>Flight Search</div>
-      <header>
-            
-         <div class="logo"><h2>Phoenix Airline PVT</h2></div>
-         <div class="searchbox">
-            <form action="">
-               <input type="text" name="search" id="srch" placeholder="search">
-               <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-             <ul>
-                <li class="active"> <a href="#">Home</a> </li>             
-                <li> <a href="" target="_blank">Ticket Info</a> </li>
-                <li> <a href="" target="_blank">Contact Us</a> </li>
-                
-               <li>
-               <a href="#"><i class="fab fa-facebook"></i></a>
-               <a href="#"><i class="fab fa-twitter"></i></a>
-               <a href="#"><i class="fab fa-instagram"></i></a>
-               </li>
-             </ul>
-               </div>
-</header>
-
          
        
          <form method="post" action="flight search.jsp">
@@ -74,7 +51,7 @@
                         </tbody>
                          
                     </table>
-                       <td colspan = "3"><input type="submit" value="Search" />
+                           <input type="submit" value="Search" />
     
        
     </body>
