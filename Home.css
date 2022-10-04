@@ -1,26 +1,28 @@
 *{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
     box-sizing: border-box;
 }
 
-.body
-{
-    margin: 0;
-    padding: 0;
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('4 dea.jpg');
+height: 100vh;
+background-size: cover;
+background-position: center;
 }
 
 header{
-   height: 120px;
-   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
    display: flex;
+   top: 10px;
    justify-content: space-between;
    align-items: center;
-   font-family: Century Gothic;
    position: fixed;
    position: relative;
    z-index: 99;
 
 }
-header ul li.active a{
+ul li.active a{
     color: #fff;
 
 }
@@ -36,7 +38,7 @@ header .logo{
     text-transform: uppercase;
     font-size: 15px;
 }
-header .search-box{
+header .searchbox{
     flex: 1;
     position: relative;
 }
@@ -60,8 +62,8 @@ header .search-box{
     border-radius: 30px;
     border: none;
     position: absolute;
-    top: 40px;
-    right: 833px;
+    top: 0;
+    right: 0;
     transform: scale(0.9);
     background: #00BFFF;
 }
@@ -76,19 +78,24 @@ header ul li{
    
 header ul li a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 10px 15px;
   border: 1px solid transparent;
   transition: 0.6s ease;
   border-radius: 30px;
 }
 header ul li a:hover{
-background-color:#000;
-color: #fff;
+background-color: #fff;
+color: #000;
 }
-
+header .menu{
+    font-size: 1.5em;
+    display: none;
+}
 @media(max-width:1000px){
-    
+    .searchbox button{
+        position: absolute;
+    }
     header ul{
         position: fixed;
         top: 100px;
@@ -100,6 +107,14 @@ color: #fff;
         align-items: center;
         transition: right  0.5s linear;
     }
+    header .menu{
+        display: block;
+        width: 100px;
+        text-align: center;
+    }
+    #chk1:checked ~ ul{
+        right: 0;
+    }
 }
 @media(max-width:600px){
     header .logo{
@@ -110,112 +125,52 @@ color: #fff;
         width: 100%;
     }
 }
-header ul li.active a{
-    background-color: #000;
-    color: #fff;
+#chk1{
+    display: none;
 }
-
-.cent
-{
-    margin: auto;
-    margin-top: 0px;
-    height: 700px;
-    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('1.jpg'); 
-    background-size: cover;
+ul li.active a{
+    background-color: #fff;
+    color: #000;
 }
-
-.Loginbox
-{
+.name{
+    width :850px;
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 350px;
+    left: 55%;
     transform: translate(-50%,-50%);
-    width: 375px;
-    height: 375px;
-    padding: 15px 20px ;
-    box-sizing: border-box;
-    background: rgba(0,0,0,0.6);
-    opacity: 1;
 }
-
-.Loginbox h2
-{
-  font-weight: bold;
-  color: black; 
-  font-size: 30px;    
+.name h1{
+    color: #fff;
+    font-size: 70px;
 }
-
-.Loginbox p
-{
-  margin:0;
-  margin-left: 0px;
-  margin-top: 25px;
-  padding: 0px;
-  font-weight: bold;
-  font-color: white; 
-  font-size: 15px;
-  font-family: cursive;
+.name h2{
+    color: #fff;
+    font-size: 20px;
 }
-
-.Loginbox input
-{
-    width: 100%;
-    margin-bottom: 2px;
-}
-
-.Loginbox input[type="text"],.Loginbox input[type="password"]
-{
-    margin-left: 25px;
-    margin-top: 25px;
-    background: transparent;
-    height: 20px;
-    width: 100px;
-}
-
-.Loginbox input[type="submit"]
-{
-    margin-top: 30px;
-    border: none;
-    outline: none;
-    height: 25px;
+.name h3{
     color: #fff;
     font-size: 15px;
-    background: #ff267e;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-    font-family:monospace;
 }
-
-.Loginbox input[type="submit"]:hover
-{
-    background: blue;
+.button{
+    position: absolute;
+    top: 450px;
+    left: 36.5%;
+    transform: translate(-50%,-50%);
 }
-
-.Loginbox input[type="reset"]
-{
-    margin-top: 30px;
-    margin-left: 60px;
-    border: none;
-    outline: none;
-    height: 25px;
-    width: 70px;
-    color: #fff;
-    font-size: 15px;
-    background: #ff267e;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-    font-family:monospace;
+.btn{
+   border: 1px solid #fff;
+   padding: 10px 30px;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.6s ease;
+   border-radius: 30px;
 }
+.btn:hover{
+    background-color: #fff;
+    color: #000;
 
-.Loginbox input[type="reset"]:hover
-{
-    background: blue;
 }
-
-footer 
-{
+footer {
     position: relative;
     width: 100%;
     height: auto;
@@ -224,21 +179,21 @@ footer
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top :0px;
-}
+    top :750px;
 
-footer .container
-{
+
+    }
+footer .container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-direction: row;
         color: #fff;
-}
+
+    }
 
 
-.contactinfo
-{
+.contactinfo{
         max-width: 100%;
         background: #111;
         padding: 8px 100px;
@@ -250,46 +205,42 @@ footer .container
 
 .contactinfo .cinfo{
     position: relative;
-}
 
- .contactinfo .cinfo li
-{
+
+    }
+
+ .contactinfo .cinfo li{
        display: flex;
        margin-bottom: 16px;
 
-}
+    }
 
  
-.contactinfo.cinfo li span
-{
+ .contactinfo.cinfo li span{
     color: #fff;
-}
+    }
 
-.contactinfo .cinfo li span:nth-child(1)
-{
+.contactinfo .cinfo li span:nth-child(1){
     color: #fff;
     font-size: 20px;
     margin-right: 10px;
 
-}
+    }
 
-.contactinfo .cinfo a
-{
+.contactinfo .cinfo a{
     color: #fff;
     text-decoration: none;
-}
 
-.contactinfo .cinfo a:hover
-{
+    }
+.contactinfo .cinfo a:hover{
         color: #fff;
 
-}
-
-.copyrightText
-{
+    }
+.copyrightText{
     max-width: 100%;
     background: #111;
     padding: 30px 13px;
     text-align: center;
     color: #fff;
+
 }

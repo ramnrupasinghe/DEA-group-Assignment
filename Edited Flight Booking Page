@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+        <div>Flight Booking</div>
+         
+       
+     
+        <form method="post" action="flight booking.jsp">
+            <center>
+                 <table border="1" width="30%" cellpadding="3">
+                
+                    <thead>
+                        <tr>
+                             <th colspan="2"><h2>Flight Booking </h2></th>
+                            <th> </th>
+                            <th><input type="submit" value="Go Back" /></th>
+                        </tr>
+                    </thead>
+                    
+                        <tr>
+                            <td> Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="code" value="" /></td>
+                            <td>Capacity&&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="Capacity" value="" /> </td>
+                        </tr>
+                        <tr>
+                            <td>Distance&nbsp;&nbsp;&nbsp;
+                        <input type="number" name="dis" value="" /></td>
+                            <td>Destination</td>
+                            <td><input type="text" name="Destination" value="" /> </td> </td>
+                        </tr>
+                        <tr>
+                            <td>Flight Code</td>
+                            <td><input type="text" name="Flight Code" value="" /> </td>
+                            <td>Source </td>
+                            <td><input type="text" name="Source" value="" /> </td>
+                        </tr>
+                        <tr>
+                            <td>Start Time</td>
+                            <td><input type="text" name="Start Time" value="" /> </td>
+                            <td>End time</td>
+                                <td> <input type="text" name="End time" value="" /></td>
+                        </tr>
+                        <tr>
+                        <td></td>
+                        <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td colspan = "3"><input type="submit" value="Save" /> <input type="reset" value="Clear" /> </td>
+                </tr>
+                   
+                    
+                    </table>
+                   </html>
+                

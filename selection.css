@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.selec
+{
+    background-color: darkslategrey;
+    margin: auto;
+    margin-top: 0px;
+    height: 500px;
+}
+
+.selection
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 750x;
+    height: 250px;
+    padding: 50px 50px 20px 50px ;
+    box-sizing: border-box;
+    background: rgba(0,0,0.5,0.5);
+    opacity: 0.75;
+    border-radius: inherit;
+    border: 0px solid;
+    
+}
+
+.option
+{
+    border: 1px solid;
+    padding: 1px 1px 1px 1px;
+}
+
+.selec input[type="submit"]
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    font-size: 15px;
+    background: darkgray;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:Century Gothice;
+}
+
+.selec input[type="submit"]:hover
+{
+    background: blue;
+}
+
+.link
+{
+    margin-top: 70px;
+    text-align: left;    
+}
+
+.link a{
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color: darkmagenta;
+    font-weight: bold;
+    text-align: match-parent;
+}
+
+.link a:hover{
+    color:white;
+}
