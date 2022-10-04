@@ -1,0 +1,77 @@
+ <tr>
+                            <td>Colombo International Airport</td>
+                             <input type="text" name="Airport Name" value="" />
+                            <td>Tharani</td>
+                            <input type="text" name="Name" value="" />
+                            <td>USA</td>
+                            <input type="text" name="Destination" value="" />
+                            <td>SriLanka</td>
+                            <input type="text" name="Country" value="" />
+                            <td>0055</td>
+                            <input type="text" name="Flight ID" value="" />
+                             <td>08/09/2022</td>
+                             <input type="text" name="Booking Date" value="" />
+                             <td>tharaniyasara@gmail.com</td>
+                             <input type="text" name="Email" value="" />
+                            
+                        </tr>
+                        <tr>
+                             <td>Los Angeles International Airport</td>
+                             <input type="text" name="Airport Name" value="" />
+                            <td>James Gordan</td>
+                            <input type="text" name="Name" value="" />
+                            <td>Dubai</td>
+                            <input type="text" name="Destination" value="" />
+                            <td>USA</td>
+                            <input type="text" name="Country" value="" />
+                            <td>10025</td>
+                            <input type="text" name="Flight ID" value="" />
+                             <td>04/10/2022</td>
+                             <input type="text" name="Booking Date" value="" />
+                             <td>gordan1@gmail.com</td>
+                             <input type="text" name="Email" value="" />
+                </tr>
+                
+                <tr>
+                            <td>Abu Dhabi International Airport</td>
+                             <input type="text" name="Airport Name" value="" />
+                            <td>Mohommad ashfak</td>
+                            <input type="text" name="Name" value="" />
+                            <td>USA</td>
+                            <input type="text" name="Destination" value="" />
+                            <td>Dubai</td>
+                            <input type="text" name="Country" value="" />
+                            <td>00778</td>
+                            <input type="text" name="Flight ID" value="" />
+                             <td>/28/09/2022</td>
+                             <input type="text" name="Booking Date" value="" />
+                             <td>habebei68@gmail.com</td>
+                             <input type="text" name="Email" value="" />
+                </tr>
+                            
+                    </tbody>
+                </table>
+         </form> 
+         <div><h2>Are sure to cancel your flight, confirm it as bellow :</h2></div>
+     
+      
+           
+  <style>
+.button {
+  border:3px ;
+  color: Black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: center;
+  border: 2px solid black;
+}
+</style>
+<button class="button button1">Confirm Cancellation</button>
+
+    </body>
+</html>
