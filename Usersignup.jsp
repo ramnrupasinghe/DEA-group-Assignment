@@ -196,7 +196,7 @@ header .menu{
 
 }
 .country{
-    top:890px;
+    top:868px;
     right:43.5%;   
 }
 .country select{
