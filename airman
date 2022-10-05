@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+  con2,th{
+  border:1px solid black;}
+</style>
+</head>
+<body style="background-color:lightblue">
+<div class=con1>
+<a href="">Back</a>
+</div>
+ <form>
+	<table>
+	  <tr>
+	    <td>ID :</td>
+		<td></td>
+		<td><input type="text"name="id"></td>
+		<td></td>
+		<td>Post code :</td>
+		<td><input type="text"name="postcode"></td>
+		<td></td>
+		<td>Email :</td>
+		<td><input type="text"name="email"></td>
+		
+	  </tr>
+	  
+	   <tr>
+	    <td>Airport Name :</td>
+		<td></td>
+		<td><input type="text"name="airportname"></td>
+		<td></td>
+		<td>Street :</td>
+		<td><input type="text"name="street"></td>
+		<td></td>
+		<td>Contact No :</td>
+		<td><input type="text"name="contactno"></td>
+		
+	  </tr>
+	  
+	  <tr>
+	    <td>City</td>
+		<td></td>
+		<td><input type="text"name="City"></td>
+		<td></td>
+		<td>Country</td>
+		<td><input type="text" name="country"></td>
+	  </tr>  
+	</table>
+	    
+		<br></br>
+	   <button style="color:blue;">ADD</button>
+	   <button style="color:blue;">Update</button>
+	   <button style="color:blue;">Delete</button>
+	   <button style="color:blue;">Clear</button>
+	   
+	   <br>
+	   </br>
+	   <table style="width:100%" border="1">
+		  <tr>
+		    <th style="text-align:left">Post code</th>
+			<th style="text-align:left">Email</th>
+		    <th style="text-align:left">Airport Name</th>
+			<th style="text-align:left">Street</th>
+			<th style="text-align:left">Contact No:</th>
+			<th style="text-align:left">City</th>
+			<th style="text-align:left">Country</th>
+		  </tr>
+		  
+		 
+	   </table>
+	
+ </form>
+</div>
+</body>
+
+
+
+<html>
