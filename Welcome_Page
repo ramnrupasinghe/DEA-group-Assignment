@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Welcome</h1>
+    </div>
+
+    <div class="center">
+        <h1>Phoenix Airline PVT</h1>
+        <h2>ONLINE FLIGHT BOKING SYSTEM</h2>
+        <h3>Let Your Dreams Take Flight</h3>
+
+        <div class="buttons">
+            
+            <select class="slt2">
+                <option value="0">Choose Your Grade</option>
+                <option value="1">Grade One</option>
+                <option value="2">Grade Two</option>
+            </select>
+
+            <button class="btn2">User Dashboard</button>
+            <input type="button" value="Go Back" class="right">
+        </div>
+    </div>
+    
+</body>
+</html>
