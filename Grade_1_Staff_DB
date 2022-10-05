@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade One Staff Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+    <div class="wrapper">
+        <h1>Grade One Staff Dashboard</h1>
+    </div>
+
+    
+        <div class="buttons">
+            <input type="button" value="Go Back" class="right">
+        </div>
+
+        <div class="search-box">
+            <form>
+                <input type ="text" name ="search" id ="srch" placeholder="Search">
+                <button type ="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+       
+        <ul>
+            <div class="btn">
+                <input type="button" value="Chat" class="right">
+            </div>
+           
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        
+        </ul>
+        
+    <div class="main">
+
+        <!--cards -->
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+       </div>
+       <div class="title">
+        <h1>Update User Information</h1>
+       </div>
+       <div class="des">
+       <button>UPDATE</button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+       </div>
+       <div class="title">
+        <h1>Add the User Information</h1>
+       </div>
+       <div class="des">
+       <button>ADD</button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+       </div>
+       <div class="title">
+        <h1>Update Flight Information</h1>
+       </div>
+       <div class="des">
+       <button>UPDATE</button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+       </div>
+       <div class="title">
+        <h1>Delete User Information</h1>
+       </div>
+       <div class="des">
+       <button>DELETE</button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">  
+       </div>
+       <div class="title">
+        <h1>Delete Flight Information</h1>
+       </div>
+       <div class="des">
+       <button>DELETE</button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+       </div>
+       <div class="title">
+        <h1>Add Flight Information</h1>
+       </div>
+       <div class="des">
+       <button>ADD</button>
+       </div>
+       </div>
+       <!--cards -->
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+       </div>
+       <div class="title">
+        <h1>Delete Flights Information</h1>
+       </div>
+       <div class="des">
+       <button>DELETE</button>
+       
+       </div>
+       </div>
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+       </div>
+       <div class="title">
+        <h1>Check User Information</h1>
+       </div>
+       <div class="des">
+       <button>CHECK</button>
+       </div>
+       </div>
+       
+       <!--cards -->
+       
+       
+       <div class="card">
+       
+       <div class="image">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
+       </div>
+       <div class="title">
+        <h1>Delete Ticket Information</h1>
+       </div>
+       <div class="des">
+       <button>DELETE</button>
+       </div>
+       </div>
+
+        <!--cards -->
+       
+       
+        <div class="card">
+       
+            <div class="image">
+               <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+            </div>
+            <div class="title">
+             <h1>Update Ticket Information</h1>
+            </div>
+            <div class="des">
+            <button>UPDATE</button>
+            </div>
+            </div>
+       </div>
+
+
+       <div class="buttons-last">
+        <input type="button" value="User Last Login Time and IP Info" class="user">
+        <input type="button" value="Check User Account" class="check">
+        <input type="button" value="Update User Account" class="update">
+        <input type="button" value="Block User Account" class="Block">
+        </div>
+
+        
+    </header>
+</body>
+</html>
