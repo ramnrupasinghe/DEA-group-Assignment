@@ -1,0 +1,107 @@
+ <footer>
+            <div class="container">
+         <div class="contactinfo">
+            <h2>Contact Us</h2>
+            <ul class="cinfo">
+                 <li>
+                  <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                  <span>phoenixairlinepvt@gmail.com</span>
+               </li>
+               <li>
+                  <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                 <p><a href="tel:0773862964">+94 77 386 2964</a><br>
+                  <a href="tel:0715032876">+94 71 503 2876</a><br>
+                  <a href="tel:0112307451 ">+94 112 307 451 </a>
+                   </p>
+               </li>
+                <li>
+                  <span><i class="fa fa-fax" aria-hidden="true"></i></span>
+                  <p><a href="fax :0176 22 2999">+94 176 22 2999</a></p>
+               </li>     
+          </ul>
+   </div>
+</div>
+<div class="copyrightText">
+   <p>Copyright © 2022 Phoenix Airline PVT. All Rights Reserved</p>
+</div>
+</footer>
+     
+     
+       <style>
+     footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 500px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top :750px;
+
+
+    }
+footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: row;
+        color: #fff;
+
+    }
+
+
+.contactinfo{
+        max-width: 100%;
+        background: #111;
+        padding: 8px 100px;
+        text-align: center;
+        color: #fff;
+
+
+    }
+
+.contactinfo .cinfo{
+    position: relative;
+
+
+    }
+
+ .contactinfo .cinfo li{
+       display: flex;
+       margin-bottom: 16px;
+
+    }
+
+
+ .contactinfo.cinfo li span{
+    color: #fff;
+    }
+
+.contactinfo .cinfo li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+
+    }
+
+.contactinfo .cinfo a{
+    color: #fff;
+    text-decoration: none;
+
+    }
+.contactinfo .cinfo a:hover{
+        color: #fff;
+
+    }
+.copyrightText{
+    max-width: 100%;
+    background: #111;
+    padding: 30px 13px;
+    text-align: center;
+    color: #fff;
+
+}
+</style>
+ </body>
+</html>
