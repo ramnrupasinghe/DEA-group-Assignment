@@ -1,0 +1,58 @@
+<html>
+<head>
+</head>
+<body style="background-color:lightblue">
+<div class=con3>
+<a href="">Back</a>
+<form>
+<table>
+<h2>Reservation</h2>
+
+	<tr>
+		<td>Flight ID</td>
+		<td></td>
+		<td><input type="text"name="flightid"></td>
+	</tr>
+
+    <tr>
+		<td>Destination</td>
+		<td></td>
+		<td><input type="text"name="destination"></td>
+	</tr>	
+
+    <tr>
+		<td>Booking Date</td>
+		<td></td>
+		<td><input type="text"name="bookingdate"></td>
+	</tr>	
+
+
+    <tr>
+		<td>Class Information
+		
+		<select>
+		<option></option>
+		<option value="First Fare">First Fare</option>
+		<option value="Business Fare">Business Fare</option>
+		<option value="Economic Fare">Economic Fare</option>
+		</select>
+		
+		</td>
+	</tr>	
+
+
+
+    <tr>
+		<td>Ticket price</td>
+		<td></td>
+		<td><input type="text"name="ticketprice"></td>
+	</tr>	
+	
+</table>
+     <br>
+		<button style="color:blue;">Update</button>
+		<button style="color:blue;">Cancel</button>
+		<button style="color:blue;">Save changes</button>
+</form>
+</body>
+</html>
