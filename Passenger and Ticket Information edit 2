@@ -1,0 +1,13 @@
+<form action="Passenger and Ticket Information.jsp">
+    <center>
+   
+        <thead>
+            <tr>
+            <th><h2>Passenger and Ticket Information</h2></th>
+            
+         
+               
+            </tr>
+        </thead>
+        <tbody>
+            
