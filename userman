@@ -1,0 +1,87 @@
+<html>
+<head>
+<style>
+  
+</style>
+</head>
+<body>
+</head>
+<body style="background-color:lightblue">
+
+<form>
+<h2>User Management</h2>
+<div class=con1>
+<a href="">Back</a>
+</div>
+<h3>Id
+<input type="text"name="Id">
+<button>Search</button>
+</h3>
+	<table style="width:100%" border="1">
+		  <tr>
+		    <th style="text-align:left">Name</th>
+			<th style="text-align:left">Email</th>
+			<th style="text-align:left">Country</th>
+			<th style="text-align:left">City</th>
+			<th style="text-align:left">Post code</th>
+			<th style="text-align:left">Street</th>
+		    <th style="text-align:left">Username</th>
+			<th style="text-align:left">Password</th>
+			<th style="text-align:left">Delete</th>
+		  </tr>
+		  
+
+	   </table>
+			<br>
+			</br>
+			<br>
+			<br>
+			</br>
+			<br>
+		<table>
+			<tr>
+			<td>Name</td>
+			<td></td>
+			<td><input type="text"name="name"></td>
+			<td></td>
+			<td>Post code</td>
+			<td><input type="text"name="postcode"></td>
+			</tr>
+			
+			<tr>
+			<td>Email</td>
+			<td></td>
+			<td><input type="text"name="email"></td>
+			<td></td>
+			<td>Street</td>
+			<td><input type="text"name="street"></td>
+			</tr>
+			
+			<tr>
+			<td>Country</td>
+			<td></td>
+			<td><input type="text"name="country"></td>
+			<td></td>
+			<td>City</td>
+			<td><input type="text"name="postcode"></td>
+			</tr>
+			
+			<tr>
+			<td>Username</td>
+			<td></td>
+			<td><input type="text"name="username"></td>
+			<td></td>
+			<td>Password</td>
+			<td><input type="text"name="password"></td>
+			</tr>
+			
+		</table>
+		<br>
+		
+		<button>Update</button>
+		<button>Clear</button
+	
+ </form>
+</form>
+</body>
+</html>
