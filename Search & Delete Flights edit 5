@@ -1,0 +1,23 @@
+<tbody>
+                        <tr>
+                            <td>Airport:&nbsp;&nbsp;
+                                <input type="text" name="airport" value="" />
+                            <td>Email:&nbsp;&nbsp;
+                                <input type="text" name="email" value="" />
+                            <td>Booking Date:&nbsp;&nbsp;
+                                <input type="text" name="Bookingdate" value="" />
+                                
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Go Back" />  
+                        </tr><br><br><br>
+                    
+                        <tr>
+                            <td>Destination:&nbsp;&nbsp;
+                                <input type="text" name="Destination" value="" />
+                            <td>Flight ID:&nbsp;&nbsp;
+                                <input type="text" name="Flight ID" value="" />
+                            <td>Country:&nbsp;&nbsp;
+                                <input type="text" name="Country" value="" />
+                        </tr>
+                    </tbody>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="Search" />
+  
