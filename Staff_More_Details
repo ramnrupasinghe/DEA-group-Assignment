@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+   <link rel="stylesheet" href="style4.css">
+   <title>More Details About Staff</title>
+
+
+</head>
+<body>
+   <header>
+        <div class="wrapper">
+            <h1>More Details About Staff</h1>
+        </div>
+    
+            <div class="buttons">
+                <input type="button" value="Go Back" class="right">
+            </div>
+
+            <div class="filter">
+            </div>
+            <table >
+           
+        <tr>
+            <th>Member Name</th>
+            <th>Position</th>
+            <th>Contact No:</th>
+            <th>Address</th>
+            <th>E-mail</th>
+            <th>Country</th>
+            <th>City</th>
+            <th>Street</th>
+            <th>National ID</th>
+            <th>Salary</th>
+           
+        </tr>
+           
+           
+            <tr>
+                <td>A.R.Perera/td>
+                <td>Area Manager</td>
+                <td>071-2233458</td>
+                <td>Homagama</td>
+                <td>arperera01@gmail.com</td>
+                <td>SriLanka</td>
+                <td>Colombo</td>
+                <td>Galle Road</td>
+                <td>9654345V</td>
+                <td>$50,000</td>
+            </tr>
+           
+
+          
+            <tr>
+                <td>Dulith Mendis</td>
+                <td>HR Manager</td>
+                <td>071-2233458</td>
+                <td>Homagama</td>
+                <td>dulithmendis25@gmail.com</td>
+                <td>SriLanka</td>
+                <td>Galle</td>
+                <td>Galle Road</td>
+                <td>9654345V</td>
+                <td>$50,000</td>
+            </tr>
+           
+              
+            <tr>
+                <td>Aruna Dias</td>
+                <td>IT engineer</td>
+                <td>071-2233458</td>
+                <td>Homagama</td>
+                <td>arunadias87@gmail.com</td>
+                <td>SriLanka</td>
+                <td>Kandy</td>
+                <td>Kandy Road</td>
+                <td>9654345V</td>
+                <td>$50,000</td>
+                </tr>
+           
+            <tr>
+           
+      
+                <tr>
+                    <td>Wasana Rajapaksha</td>
+                    <td>Operational Manager</td>
+                    <td>071-2233458</td>
+                    <td>Homagama</td>
+                    <td>wasanaraj56@gmail.com</td>
+                    <td>SriLanka</td>
+                    <td>Kegalle</td>
+                    <td>Kegalle Road</td>
+                    <td>9654345V</td>
+                    <td>$50,000</td>
+                </tr>
+          
+           
+      
+                <tr>
+                    <td>Avishka Fonseka</td>
+                    <td>QA Engineer</td>
+                    <td>071-2233458</td>
+                    <td>Homagama</td>
+                    <td>avishfonseka76@gmail.com</td>
+                    <td>SriLanka</td>
+                    <td>Kandy</td>
+                    <td>Kandy Road</td>
+                    <td>9654345V</td>
+                    <td>$50,000</td>
+                </tr>
+                      
+             <tr>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+            </tr>
+           
+            <tr>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+            </tr>
+          
+            <tr>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+            </tr>
+           
+            <tr>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+                <td>.....</td>
+            </tr>
+            </table>
+           
+               
+        </header>
+    </body>
+    </html>
