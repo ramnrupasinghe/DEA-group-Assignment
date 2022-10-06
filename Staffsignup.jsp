@@ -335,9 +335,9 @@ footer .container{
             </form>
                </div>
              <ul>
-                <li> <a href="" target="_blank">Home</a> </li>       
+                <li> <a href="Home.html" target="_blank">Home</a> </li>       
                 <li> <a href="" target="_blank">Ticket Info</a> </li>
-                <li> <a href="" target="_blank">Contact Us</a> </li>
+                <li> <a href="Contact_Us.html" target="_blank">Contact Us</a> </li>
                 
                <li>
                <a href="#"><i class="fab fa-facebook"></i></a>
@@ -355,11 +355,11 @@ footer .container{
          </div> 
           <div class="Signup">
         <h1>Sign up Form</h1>
-        <form action="Staffsignupdata" method='post'>
+        <form action="Staffsignupdata" method="post">
           <p>First Name</p>        
           <input type="text" placeholder="Enter your First Name" name="fname"required><br/>
           <p>Surname</p>          
-          <input type="text" placeholder="Enter your Surame" required><br/>
+          <input type="text" placeholder="Enter your Surame" name="sname" required><br/>
           <p>ID</p>
           <input type="text" placeholder="Enter ID" name="id"required><br/>
           <p>Email</p>       
