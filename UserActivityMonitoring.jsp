@@ -345,6 +345,7 @@ footer .container{
         
         <div class="user">
             <h1>For User</h1>
+            <form action="userActivitymonitoringservlet.java" method="POST">
             <div class="u-1">
             <table>
                 <tr>
@@ -410,6 +411,7 @@ footer .container{
                     </tr>
                 </table>
             </div>
+            </form>
             </div>
         
         <footer>
