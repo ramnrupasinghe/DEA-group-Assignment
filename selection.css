@@ -5,11 +5,12 @@
 body{
    margin: 0;
    padding: 0;
+   background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('3@.jpg'); 
+   background-size: cover;
 }
 
 header{
    height: 120px;
-   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -123,19 +124,34 @@ header ul li.active a{
     color: #fff;
 }
 
+.goback a{
+    position :absolute;
+     top: 150px;
+     right: 60px;
+     border: 1px solid transparent;
+     padding: 10px 15px;
+     color: white ;
+     font-weight: bold;
+     text-decoration: none;
+     transition: 0.6s ease;
+     border-radius: 30px;
+     background-color: darkblue;
+}
+
+.goback a:hover{
+     background-color: black ;
+}
+
 .selec
 {
-    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('3@.jpg'); 
-    background-size: cover;
     margin: auto;
     margin-top: 0px;
-    height: 500px;
 }
 
 .selection
 {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 750x;
