@@ -27,8 +27,13 @@
              </ul>
         </header>
    
+        <div class="cent">
+          <div class="goback">
+           <button> <a href="Home.html"  onclick="history.back()"> Go Back</a></button>
+          </div> 
         <center>
-        <h2>Admin Login</h2>
+          <h2>Admin Login</h2>
+            <form action="Adminservlet.java" method="POST">
               <table>
                 <tr>
                 <th>Admin ID</th> 
@@ -43,8 +48,10 @@
                 <tr>
                 <th><input type="submit" value="Enter" /></th>
                 <td><input type="reset" value="Cancel" /></td></tr>
-            </table>
-    </center>
+              </table>
+            </form>
+            </center>
+         </div>
         
         <footer>
         <div class="container">
