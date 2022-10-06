@@ -14,11 +14,13 @@ body
 {
    margin: 0;
    padding: 0;
+   background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url ('2@.jpg'); 
+   background-size: cover;
+   height: 100vh;
 }
 
 header{
    height: 120px;
-   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -125,10 +127,26 @@ header ul li.active a{
 
 .user
 {
-    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('4@.jpg'); 
-    background-size: cover;
-    margin-top: -17px;
-    height: 900px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+            
+.goback a{
+    position :absolute;
+     top: 150px;
+     right: 60px;
+     border: 1px solid transparent;
+     padding: 10px 15px;
+     color: white ;
+     font-weight: bold;
+     text-decoration: none;
+     transition: 0.6s ease;
+     border-radius: 30px;
+     background-color: darkblue;
+}
+            
+.goback a:hover{
+     background-color: black ;
 }
 
 .user h1
@@ -342,6 +360,9 @@ footer .container{
         </header>
         
         <div class="user">
+            <div class="goback">
+            <button> <a href="Selection.html"  onclick="history.back()"> Go Back</a></button>
+            </div>
             <h1>For Member</h1>
             <form action="staffActivitymonitoringservlet.java" method="POST">
             <div class="u-1">
@@ -395,21 +416,10 @@ footer .container{
                     <tr>
                         <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     </tr>
-                    <tr>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
-                    <tr>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
                 </table>
             </div>
-                </div>
+            </form>
+            </div>
             </div>
         
         <footer>
