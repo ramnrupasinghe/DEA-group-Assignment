@@ -1,14 +1,214 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<head>
-<style>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+*{
+    box-sizing: border-box;
+}
+body
+{
+   margin: 0;
+   padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('flight1.jpg');
+    height: 100vh;
+}
+header{
   
-</style>
-</head>
-<body>
-</head>
-<body style="background-color:lightblue">
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: Century Gothic;
+   position: fixed;
+   position: relative;
+   z-index: 99;
+}
+header ul li.active a{
+    color: #fff;
+}
+i{
+    color: #fff;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color: #fff;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+.searchbox input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background:rgb(173, 216, 230);
+    border-radius:30px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 40px;
+}
+.searchbox button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 11px;
+    right: 833px;
+    transform: scale(0.9);
+    background: #00BFFF;
+}
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+   
+header ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  border-radius: 30px;
+}
+header ul li a:hover{
+background-color:#000;
+color: #fff;
+}
+@media(max-width:1000px){
+    
+    header ul{
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        background: rgba(0,0,0,0.5);
+        height: calc(100vh - 100px);
+        width:50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right  0.5s linear;
+    }
+}
+@media(max-width:600px){
+    header .logo{
+        font-size: 10px;
+        margin-left: 8px;
+    }
+    header ul{
+        width: 100%;
+    }
+}
+header ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
 
-<form>
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 500px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top :0px;
+    }
+footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: row;
+        color: #fff;
+    }
+.contactinfo{
+        max-width: 100%;
+        background: #111;
+        padding: 8px 100px;
+        text-align: center;
+        color: #fff;
+    }
+.contactinfo .cinfo{
+    position: relative;
+    }
+ .contactinfo .cinfo li{
+       display: flex;
+       margin-bottom: 16px;
+    }
+ 
+ .contactinfo.cinfo li span{
+    color: #fff;
+    }
+.contactinfo .cinfo li span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    }
+.contactinfo .cinfo a{
+    color: #fff;
+    text-decoration: none;
+    }
+.contactinfo .cinfo a:hover{
+        color: #fff;
+    }
+.copyrightText{
+    max-width: 100%;
+    background: #111;
+    padding: 30px 13px;
+    text-align: center;
+    color: #fff;
+}
+    </style>
+    </head>
+    <body>
+        <header>
+        <div class="logo"><h2>Phoenix Airline PVT</h2></div>
+        <div class="searchbox">
+            <form action="">
+               <input type="text" name="search" id="srch" placeholder="search">
+               <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+             <ul>
+                <li> <a href="" target="_blank">Home</a> </li>             
+                <li> <a href="" target="_blank">Ticket Info</a> </li>
+                <li> <a href="" target="_blank">Contact Us</a> </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+             </ul>
+        
+        
+        </header>
+
+        
+        
+
+
+
+
 <h2>User Management</h2>
 <div class=con1>
 <a href="">Back</a>
@@ -17,26 +217,98 @@
 <input type="text"name="Id">
 <button>Search</button>
 </h3>
-	<table style="width:100%" border="1">
-		  <tr>
-		    <th style="text-align:left">Name</th>
-			<th style="text-align:left">Email</th>
-			<th style="text-align:left">Country</th>
-			<th style="text-align:left">City</th>
-			<th style="text-align:left">Post code</th>
-			<th style="text-align:left">Street</th>
-		    <th style="text-align:left">Username</th>
-			<th style="text-align:left">Password</th>
-			<th style="text-align:left">Delete</th>
-		  </tr>
-		  
+<form>
+	           <table style="width:100%"BORDER CELLPADDING="4">
+                        <tr>
+                            <td style="text-align:left">Name</td>
+                            <td style="text-align:left">Email</td>
+                            <td style="text-align:left">Country</td>
+                            <td style="text-align:left">City</td>
+                            <td style="text-align:left">Post code:</td>
+                            <td style="text-align:left">Street</td>
+                            <td style="text-align:left">Username</td>
+                            <td style="text-align:left">Password</td>
+                            <td style="text-align:left">Delete</td>
+                        </tr>
+                        
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
 
+                       <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        
 	   </table>
 			<br>
-			</br>
+			
 			<br>
 			<br>
-			</br>
+			
 			<br>
 		<table>
 			<tr>
@@ -76,12 +348,44 @@
 			</tr>
 			
 		</table>
+</form>
 		<br>
 		
 		<button>Update</button>
-		<button>Clear</button
+                <button>Clear</button>
 	
- </form>
-</form>
-</body>
+ 
+
+        <footer>
+        <div class="container">
+        <div class="contactinfo">
+            <h2>Contact Us</h2>
+            <ul class="cinfo">
+               <li>
+                 <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                 <span>phoenixairlinepvt@gmail.com</span>
+               </li>
+               <li>
+                 <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                 <p><a href="tel:0773862964">+94 77 386 2964</a><br>
+                    <a href="tel:0715032876">+94 71 503 2876</a><br>
+                    <a href="tel:0112307451 ">+94 112 307 451 </a>
+                 </p>
+               </li>
+               <li>
+                 <span><i class="fa fa-fax" aria-hidden="true"></i></span>
+                 <p><a href="fax :0176 22 2999">+94 176 22 2999</a></p>
+               </li>     
+            </ul>
+        </div>
+        </div>
+        <div class="copyrightText">
+        <p>Copyright © 2022 Phoenix Airline PVT. All Rights Reserved</p>
+        </div>
+        </footer>
+        
+    </body>
 </html>
+
+
+
