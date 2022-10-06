@@ -3,37 +3,30 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {font-family: Arial;}
+ {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 13px;
+  border: 2px solid ;
+  border-radius: 6px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
+ 
 }
 
-input[type=submit] {
-  
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-background-color: #04AA6D;
-}
+
+
 
 input[type=submit]:hover {
-  background-color: null;
+  background-color: red;
 }
 
 .container {
   border-radius: 5px;
-  background-color: null;
+  background-color: #ffffcc;
   padding: 20px;
 }
 </style>
@@ -43,11 +36,11 @@ input[type=submit]:hover {
 <h3><center>Contact us!<center></h3>
 
 <div class="container">
-  <form action="home" method="post">
-    <label for="fname">First Name</label>
+  <form action="home.html" method="post">
+    <label for="firname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="type Your first name here..">
 
-    <label for="lname">Last Name</label>
+    <label for="lasname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="type Your last name here..">
 
     <label for="country">Country</label>
@@ -319,7 +312,7 @@ input[type=submit]:hover {
     </select>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="comment here..." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="comment here..." style="height:175px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
