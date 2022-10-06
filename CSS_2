@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(airplane.png) no-repeat;
+	background-size: cover;
+	height: 130vh;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper h1{
+    left:2%;
+    top:3%;
+    position: absolute;
+    font-size: 28px;
+
+}
+.main{
+    padding: 13px 32px;
+    position: absolute;
+    top: 24%;
+    
+}
+
+.card{
+    width: 15%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    color: rgb(0, 8, 67);
+    border-radius: 5px; 
+    margin: 2%;
+   }
+   
+.buttons input {
+    padding: 13px 32px;
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    background-color:rgb(13, 22, 106);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.search-box input{
+    padding: 13px 32px;
+    position: absolute;
+    top: 12%;
+    right: 40%;
+    background-color:rgb(255, 255, 255);
+    opacity: 0.8;
+    color: rgb(51, 2, 125);
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.search-box button{
+    padding: 13px 32px;
+    position: absolute;
+    top: 9%;
+    right: 35%;
+    background-color:rgb(73, 82, 163);
+    color: white;
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.btn input{
+    padding: 13px 32px;
+    position: absolute;
+    top: 12%;
+    right: 20%;
+    background-color:rgb(223, 126, 16);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.social{
+    padding: 13px 32px;
+    position: absolute;
+    top: 12%;
+    right: 3%;
+    color: white;
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+    color:rgb(6, 6, 6);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 16px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 20px;
+  margin-bottom: 6px;
+  background-color:rgb(177, 94, 143);
+  border: 1px solid rgb(200, 255, 0);
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: rgb(71, 0, 48);
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.buttons-last .user{
+    padding: 13px 32px;
+    position: absolute;
+    bottom:-28%;
+    left: 1%;
+    background-color:rgb(0, 90, 174);
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttons-last .check{
+    padding: 13px 32px;
+    position: absolute;
+    bottom:-28%;
+    left: 31%;
+    background-color:rgb(0, 90, 174);
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttons-last .update{
+    padding: 13px 32px;
+    position: absolute;
+    bottom:-28%;
+    left: 55%;
+    background-color:rgb(0, 90, 174);
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttons-last .Block{
+    padding: 13px 32px;
+    position: absolute;
+    bottom:-28%;
+    left: 79%;
+    background-color:rgb(0, 90, 174);
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
