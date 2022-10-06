@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(airplane.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper h1{
+    left:2%;
+    top:3%;
+    position: absolute;
+
+}
+
+.center{
+        position: absolute;
+        left:40%;
+        top:55%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+.center h1{
+        color: rgb(0, 0, 0);
+        left:40%;
+        font-size: 70px;
+        width: 698px;
+        font-weight: bold;
+        text-align: center;
+    }
+.center h2{
+        color: rgb(0, 0, 0);
+        font-size: 38px;
+        font-weight: bold;
+        margin-top: 8px;
+        width:660px;
+        text-align: center;
+    }
+
+.center h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    width:315px;
+    text-align: center;
+}
+ 
+.buttons button {
+        background-color:rgb(13, 22, 106);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 6px 2px;
+        cursor: pointer;
+    }  
+    
+.buttons select {
+        background-color:rgb(13, 22, 106);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 16px 20px;
+        cursor: pointer;
+    }  
+
+.buttons input {
+        padding: 15px 32px;
+        position: absolute;
+        top: 140%;
+        left: 130%;
+        background-color:rgb(13, 22, 106);
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
