@@ -11,7 +11,7 @@
                 position:absolute;
                 left:0;
                 top:0;
-               height: 1143px;
+               height: 1105.5px;
                background: url('7 dea.jpg');
                z-index: 100;
                  
@@ -137,9 +137,9 @@
            }
            
            main{
-               margin-top: 85px;
+               margin-top: 53px;
                padding: 2rem 1.5rem;
-               background: #F8F9F9;
+               background: rgb(173, 216, 230);
                min-height: calc(100vh - 90px);
                
            }
@@ -352,7 +352,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top :5px;
+    top :.1px;
 
 
     }
