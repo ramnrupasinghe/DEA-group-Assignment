@@ -350,7 +350,7 @@ footer .container{
          </div> 
           <div class="Signup">
         <h1>Add New Staff Member</h1>
-        <form action="" method="post">
+        <form action="adminaddnewstaff" method="post">
           <p>First Name</p>        
           <input type="text" placeholder="Enter your First Name" name="fname"required><br/>
           <p>Surname</p>          
