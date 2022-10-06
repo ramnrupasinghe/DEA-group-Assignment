@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+   <link rel="stylesheet" href="style3.css">
+   <title>Staff  Member  Details</title>
+
+   <!-- Created by S-Tech04 -->
+
+</head>
+<body>
+   <header>
+        <div class="wrapper">
+            <h1>Staff Member Details</h1>
+        </div>
+    
+        
+            <div class="buttons">
+                <input type="button" value="Go Back" class="right">
+            </div>
+
+            <div class="main">
+
+                <!--cards -->
+               
+               <div class="card">
+               
+               <div class="image">
+               <img src="1deacffb09e7f6e6191b6f788f5fac76.jpg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               <!--cards -->
+               
+               
+               <div class="card">
+               
+               <div class="image">
+                  <img src="d0682f4dc95d69b5fdf6f8e20ac28a92.jpg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               <!--cards -->
+               
+               
+               <div class="card">
+               
+               <div class="image">
+               <img src="Dressing-Your-Body-Short-and-Broad-1.jpg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               <!--cards -->
+               
+               
+               <div class="card">
+               
+               <div class="image">
+                  <img src="HTB18kViwnXYBeNkHFrdq6AiuVXaq.jpg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               <!--cards -->
+               
+               
+               <div class="card">
+               
+               <div class="image">
+                <img src="ROYALBLUEUPLOAD_2b134408-4cf5-4649-b4ed-8ce4eea0acb9_1024x1024.jpg">  
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               <!--cards -->
+               
+               <div class="card">
+               
+               <div class="image">
+                  <img src="iStock-1297832789.jpg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               <!--cards -->
+               
+               <div class="card">
+               
+               <div class="image">
+                  <img src="jrj448cg_work-wear_625x300_26_July_22.jpg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               <!--cards -->
+               
+               
+               <div class="card">
+               
+               <div class="image">
+                  <img src="types-of-tops-July72020-12-min.jpg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+               
+               <!--cards -->
+               
+               
+               <div class="card">
+               
+               <div class="image">
+               <img src="IMG_0909-1.jpeg">
+               </div>
+               <div class="title">
+                <h1>Name</h1>
+                <h2>Position</h2>
+               </div>
+               <div class="sci">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+               <div class="des">
+               <button>MORE DETAILS</button>
+               </div>
+               </div>
+                <!--cards -->
+               
+               
+                <div class="card">
+               
+                    <div class="image">
+                       <img src="types-of-tops-July72020-2-min.jpg.webp">
+                    </div>
+                    <div class="title">
+                        <h1>Name</h1>
+                        <h2>Position</h2>
+                       </div>
+                       <div class="sci">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                       <div class="des">
+                       <button>MORE DETAILS</button>
+                       </div>
+                       </div>
+               
+   </header>
+</body>
+</html>
