@@ -47,7 +47,11 @@
                         <a href="Staff_Members.html"><span class="las la-user-circle"></span>
                             <span>Staff Details</span></a> 
                     </li>
-                    
+                       
+                     <li>
+                        <a href=""><span class="las la-clipboard-list"></span>
+                            <span>Staff Members Approval Forms</span></a> 
+                    </li>
                      <li>
                         <a href="Home.html"><span class="las la-clipboard-list"></span>
                             <span>Go Back</span></a> 
