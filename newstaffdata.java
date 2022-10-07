@@ -61,7 +61,7 @@ public class newstaffdata extends HttpServlet {
        
        System.out.println("Connected");
        
-       String sql = ( "insert into userdata (firstname,surname,id,email,phonenumber,address,country,city,street,postcode,username,password,confirmpsw) values('"+firstname+"','"+surname+"','"+id+"','"+email+"','"+phonenumber+"','"+address+"','"+country+"','"+city+"','"+street+"','"+postcode+"','"+username+"','"+password+"','"+confirmpsw+"')");
+       String sql = ( "insert into staffdata (firstname,surname,id,email,phonenumber,address,country,city,street,postcode,username,password,confirmpsw) values('"+firstname+"','"+surname+"','"+id+"','"+email+"','"+phonenumber+"','"+address+"','"+country+"','"+city+"','"+street+"','"+postcode+"','"+username+"','"+password+"','"+confirmpsw+"')");
        
        PreparedStatement ps = con.prepareStatement(sql);
        
