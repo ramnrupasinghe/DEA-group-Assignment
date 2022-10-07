@@ -377,7 +377,7 @@ footer .container{
           <p>Confirm Password</p>
                  <input type="password" placeholder="Confirm password" name="cpsw"required><br/>
                  <span style="display: none">Both the password does not match</span><br/><br/>
-          <input type="submit" value='Sign Up'>
+          <input type="submit" value='Apply for Admin Approval'>
            </form>
            </div>
            <div class="country">
