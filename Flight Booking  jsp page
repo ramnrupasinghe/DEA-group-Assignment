@@ -213,7 +213,7 @@ footer .container{
          </header>
         <br><br><br>
 
-        <form method="post" action="flight booking.jsp">
+        <form method="post" action="FlightBooking_Submit.jsp">
             <center>
                  <table border="1" width="30%" cellpadding="3">
                 
