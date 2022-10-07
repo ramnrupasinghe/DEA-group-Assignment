@@ -52,7 +52,7 @@ protected void processRequest(HttpServletRequest request, HttpServletResponse re
            
           System.out.println("Connected");
            
-          String sql = "insert into useractivityMonitoring(No,id,email,client name,Last logged time,Last logged day,Access time,No of times of visiting the site(in last 30 minutes)) VALUES(?,?,?,?,?,?,?,?)";
+          String sql = "insert into useractivityMonitoring(No,id,email,client name,Last logged time,Last logged day,Access time,No of times of visiting the site(in last 30 minutes)) VALUES('','','','','','','')";
 
           RequestDispatcher rd = request.getRequestDispatcher("UserActivityMonitoring.jsp");
           rd.forward(request, response);
