@@ -211,7 +211,7 @@ footer .container{
          </header>
         <br><br><br>
 
-<form action="Passenger and Ticket Information.jsp">
+<form action="Ticket_Information.jsp">
     <center>
    
         <thead>
