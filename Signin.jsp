@@ -44,16 +44,18 @@
            <i class="fa fa-bars"></i>
          </label>
       </div>
-          <div class="Signin"> 
+     <div class="Signin"> 
         <h1>Welcome!</h1>
-         <table> 
-        <p>User Name</p>
-          <input type="text" name="username" placeholder="User Name" required>
+         <form action="signin" method="post">
+         <table>          
+        <p>Username</p>
+          <input type="text" name="username" placeholder="Username" required>
          <p>Password</p>
           <input type="password" name="pass" placeholder="Password" required> 
           <p>Choose your category</p>                         
-        </table>      
-          </div>     
+        </table> 
+           </form>
+          </div>      
          <div class="custom-select">
              <select>
                  <option selected disabled>Choose</option>
