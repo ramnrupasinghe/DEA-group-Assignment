@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*
+{
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper{
+	background: url(airplane.png) no-repeat;
+	background-size: cover;
+	height: 110vh;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper h1{
+    left:2%;
+    top:3%;
+    position: absolute;
+    font-size: 28px;
+
+}
+
+.buttons input {
+    padding: 13px 32px;
+    position: absolute;
+    top: 12%;
+    left: 82%;
+    background-color:rgb(13, 22, 106);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.filter{
+    position: absolute;
+    width: 80%;
+    z-index: 1;
+    background: rgb(233,76,161);
+   opacity: .9;
+   }
+
+   table{
+    position: absolute;
+    z-index: 2;
+    left: 49%;
+    top:65%;
+    transform: translate(-50%,-50%);
+    width: 40%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+   
+   }
+   td , th{
+    padding: 15px 10px;
+    text-align: center;
+    
+   
+   }
+   th{
+    background-color: #ba68c8;
+    color: #fafafa;
+    font-weight: bold;
+    
+   
+   }
+   tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+   }
+   tr:nth-child(even){
+    background-color: #eeeeee;
+   }
