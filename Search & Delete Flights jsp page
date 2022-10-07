@@ -211,7 +211,7 @@ footer .container{
          </header>
         <br><br><br>
 
-        <form method="POST" action="Search & Delete Flights.jsp">
+        <form method="POST" action="Confirm_Cancellation.jsp">
             <center>
                 
                 <thead>
