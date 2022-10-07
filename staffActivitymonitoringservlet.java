@@ -49,7 +49,7 @@ public class staffActivitymonitoringservlet extends HttpServlet {
            
           System.out.println("Connected");
            
-          String sql = "insert into staffactivityMonitoring(No,id,email,client name,Last logged time,Last logged day,Access time,No of times of visiting the site(in last 30 minutes)) VALUES(?,?,?,?,?,?,?,?)";
+          String sql = "insert into staffactivityMonitoring(No,id,email,client name,Last logged time,Last logged day,Access time,No of times of visiting the site(in last 30 minutes)) VALUES('','','','','','','','')";
 
           RequestDispatcher rd = request.getRequestDispatcher("StaffActivityMonitoring.jsp");
           rd.forward(request, response);
