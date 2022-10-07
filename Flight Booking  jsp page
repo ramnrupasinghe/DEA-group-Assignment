@@ -262,7 +262,7 @@ footer .container{
                     <td colspan = "3"><input type="submit" value="Save" />
                         
                         
-    <input type="reset" value="Clear" /> </td>
+    <input type="reset" value="Clear" action="FlightBooking_Cancel.jsp" /> </td>
                 </tr>
                    
                     
