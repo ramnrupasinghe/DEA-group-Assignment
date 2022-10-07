@@ -329,9 +329,9 @@ footer .container{
             </form>
                </div>
              <ul>
-                <li> <a href="" target="_blank">Home</a> </li>       
+                <li> <a href="Home.html" target="_blank">Home</a> </li>       
                 <li> <a href="" target="_blank">Ticket Info</a> </li>
-                <li> <a href="" target="_blank">Contact Us</a> </li>
+                <li> <a href="Contact_Us.html" target="_blank">Contact Us</a> </li>
                 
                <li>
                <a href="#"><i class="fab fa-facebook"></i></a>
