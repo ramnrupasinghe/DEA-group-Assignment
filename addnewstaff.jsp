@@ -15,8 +15,8 @@
 }
 
 body{
-background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('');
-height: 150vh;
+background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('2 dea.jpg');
+height: 250vh;
 background-size: cover;
 background-position: center;
 
