@@ -212,7 +212,7 @@ footer .container{
         <br><br><br>
 
 
-<form action="Payments and Fare Details.jsp">
+<form action="Online_Payment.jsp">
     <center>
     
         <table border="1">
